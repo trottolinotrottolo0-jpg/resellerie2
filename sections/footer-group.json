@@ -6,8 +6,7 @@
  * or related systems. Please exercise caution as any changes
  * made to this file may be overwritten.
  * ------------------------------------------------------------
- */
-{
+ */{
   "type": "footer",
   "name": "t:names.footer",
   "sections": {
@@ -39,7 +38,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<p>Join our Newsletter — Get Updates, Offers and Invites.</p>",
+                "text": "<p>Iscriviti alla newsletter \u2014 novit\u00e0, sconti e anteprime in esclusiva.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -77,7 +76,7 @@
                 "input_type_preset": "paragraph",
                 "style_class": "button",
                 "display_type": "arrow",
-                "label": "Sign up",
+                "label": "Iscriviti",
                 "integrated_button": false,
                 "button_type_preset": "paragraph",
                 "padding-block-start": 0,
@@ -113,7 +112,7 @@
           "type": "menu",
           "settings": {
             "menu": "footer",
-            "heading": "Shop",
+            "heading": "Negozio",
             "menu_spacing": 12,
             "show_as_accordion": false,
             "accordion_icon": "caret",
@@ -131,7 +130,7 @@
           "type": "menu",
           "settings": {
             "menu": "",
-            "heading": "Help",
+            "heading": "Assistenza",
             "menu_spacing": 12,
             "show_as_accordion": false,
             "accordion_icon": "caret",
@@ -150,7 +149,7 @@
           "name": "t:names.menu",
           "settings": {
             "menu": "",
-            "heading": "About",
+            "heading": "Chi siamo",
             "menu_spacing": 12,
             "show_as_accordion": false,
             "accordion_icon": "caret",
@@ -202,7 +201,7 @@
             "text_jBr8nr": {
               "type": "text",
               "settings": {
-                "text": "<p>Stay Connected</p>",
+                "text": "<p>Seguici</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -226,10 +225,7 @@
               "type": "social-links",
               "name": "t:names.social_media_links",
               "settings": {
-                "facebook_url": "https://facebook.com",
-                "instagram_url": "https://instagram.com",
-                "tiktok_url": "https://tiktok.com",
-                "twitter_url": "https://x.com"
+                "instagram_url": "https://instagram.com"
               },
               "blocks": {}
             }

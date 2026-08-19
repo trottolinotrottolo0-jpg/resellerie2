@@ -60,11 +60,11 @@
     "popover_border_color": "{{ settings.color_palette.color1 }}",
     "color_palette": {
       "background": "#ffffff",
-      "foreground": "#000000",
-      "color1": "#c3cca6",
-      "color2": "#adc4c2",
-      "color3": "#fdc656",
-      "color4": "#F1EDE8"
+      "foreground": "#1c3a56",
+      "color1": "#dce6ee",
+      "color2": "#f3efe7",
+      "color3": "#e8c07d",
+      "color4": "#eef2f6"
     },
     "logo": "shopify://shop_images/resellerie-logo.png"
   },
@@ -130,11 +130,11 @@
       "popover_border_color": "{{ settings.color_palette.color1 }}",
       "color_palette": {
         "background": "#ffffff",
-        "foreground": "#000000",
-        "color1": "#c3cca6",
-        "color2": "#adc4c2",
-        "color3": "#fdc656",
-        "color4": "#F1EDE8"
+        "foreground": "#1c3a56",
+        "color1": "#dce6ee",
+        "color2": "#f3efe7",
+        "color3": "#e8c07d",
+        "color4": "#eef2f6"
       }
     }
   }
