@@ -129,7 +129,7 @@
         "menu_jRmAQi": {
           "type": "menu",
           "settings": {
-            "menu": "",
+            "menu": "footer-assistenza",
             "heading": "Assistenza",
             "menu_spacing": 12,
             "show_as_accordion": false,
@@ -148,7 +148,7 @@
           "type": "menu",
           "name": "t:names.menu",
           "settings": {
-            "menu": "",
+            "menu": "footer-chi-siamo",
             "heading": "Chi siamo",
             "menu_spacing": 12,
             "show_as_accordion": false,
