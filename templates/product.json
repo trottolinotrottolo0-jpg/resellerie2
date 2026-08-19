@@ -821,10 +821,34 @@
                 "accordion_row_VyFryh",
                 "accordion_row_aaFerA"
               ]
+            },
+            "condition_badge": {
+              "type": "text",
+              "settings": {
+                "text": "{% if closest.product.tags contains 'usato' %}<p style='display:inline-block;background:#eef2f6;color:#1c3a56;padding:4px 12px;border-radius:2px;font-size:0.75rem;letter-spacing:0.05em;text-transform:uppercase;'>Usato</p>{% elsif closest.product.tags contains 'nuovo' %}<p style='display:inline-block;background:#1c3a56;color:#ffffff;padding:4px 12px;border-radius:2px;font-size:0.75rem;letter-spacing:0.05em;text-transform:uppercase;'>Nuovo</p>{% endif %}",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 4,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "text_GnyQiN",
+            "condition_badge",
             "reviews",
             "price_a7krng",
             "variant_picker_R3rGDr",
