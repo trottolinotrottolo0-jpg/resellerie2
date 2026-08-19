@@ -475,6 +475,12 @@
 
   .slideshow-controls__thumbnail {
     position: relative;
+    transition: transform 0.2s ease;
+  }
+
+  .slideshow-controls__thumbnail:hover {
+    transform: scale(1.12);
+    z-index: 2;
   }
 
   .slideshow-controls__thumbnail-badge {

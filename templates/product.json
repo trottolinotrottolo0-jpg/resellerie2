@@ -34,7 +34,7 @@
           "type": "_product-media-gallery",
           "static": true,
           "settings": {
-            "media_presentation": "grid",
+            "media_presentation": "carousel",
             "media_columns": "two",
             "image_gap": 12,
             "large_first_image": true,
@@ -42,7 +42,7 @@
             "slideshow_controls_style": "dots",
             "slideshow_mobile_controls_style": "dots",
             "thumbnail_position": "bottom",
-            "thumbnail_width": 44,
+            "thumbnail_width": 72,
             "thumbnail_radius": 0,
             "aspect_ratio": "1",
             "constrain_to_viewport": true,
@@ -386,7 +386,7 @@
                           "type": "text",
                           "name": "t:names.heading",
                           "settings": {
-                            "text": "<p>Made with care</p>",
+                            "text": "<p>Fatto con cura</p>",
                             "width": "100%",
                             "max_width": "normal",
                             "alignment": "center",
@@ -468,7 +468,7 @@
                           "type": "text",
                           "name": "t:names.heading",
                           "settings": {
-                            "text": "<p>Great value</p>",
+                            "text": "<p>Ottimo rapporto qualit\u00e0-prezzo</p>",
                             "width": "100%",
                             "max_width": "normal",
                             "alignment": "center",
@@ -595,7 +595,7 @@
                           "type": "text",
                           "name": "t:names.heading",
                           "settings": {
-                            "text": "<p>Elegant design</p>",
+                            "text": "<p>Design elegante</p>",
                             "width": "100%",
                             "max_width": "normal",
                             "alignment": "center",
@@ -677,7 +677,7 @@
                           "type": "text",
                           "name": "t:names.heading",
                           "settings": {
-                            "text": "<p>Quality materials</p>",
+                            "text": "<p>Materiali di qualit\u00e0</p>",
                             "width": "100%",
                             "max_width": "normal",
                             "alignment": "center",
@@ -741,7 +741,7 @@
                 "accordion_row_VyFryh": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Details",
+                    "heading": "Dettagli",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -750,7 +750,7 @@
                     "text_McjMWz": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>This product is crafted with quality materials to ensure durability and performance. Designed with your convenience in mind, it seamlessly fits into your everyday life.</p>",
+                        "text": "<p>Ogni articolo del nostro catalogo viene controllato e verificato con cura prima della spedizione, per garantirti qualit\u00e0 e affidabilit\u00e0 ad ogni acquisto.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -780,7 +780,7 @@
                 "accordion_row_aaFerA": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Shipping & Returns",
+                    "heading": "Spedizione e Resi",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20
@@ -789,7 +789,7 @@
                     "text_DNPAct": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>We strive to process and ship all orders in a timely manner, working diligently to ensure that your items are on their way to you as soon as possible. </p><p>We are committed to ensuring a positive shopping experience for all our customers. If for any reason you wish to return an item, we invite you to reach out to our team for assistance, and we will evaluate every return request with care and consideration.</p>",
+                        "text": "<p>Ci impegniamo a spedire ogni ordine il prima possibile, lavorando con cura affinch\u00e9 i tuoi articoli arrivino rapidamente.</p><p>Il tuo acquisto \u00e8 importante per noi. Se per qualsiasi motivo desideri restituire un articolo, contatta il nostro team: valuteremo ogni richiesta di reso con attenzione.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -858,67 +858,6 @@
         "padding-block-end": 32
       }
     },
-    "section_NaqU9X": {
-      "type": "section",
-      "blocks": {
-        "video_PthMbP": {
-          "type": "video",
-          "name": "t:names.video",
-          "settings": {
-            "source": "uploaded",
-            "video_url": "",
-            "video_autoplay": false,
-            "video_loop": true,
-            "alt": "",
-            "custom_width": 100,
-            "custom_width_mobile": 100,
-            "aspect_ratio": "16/9",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_color": "",
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "video_PthMbP"
-      ],
-      "name": "t:names.video_section",
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
-        "section_width": "full-width",
-        "section_height": "small",
-        "section_height_custom": 50,
-        "background_media": "none",
-        "background_color": "{{ settings.color_palette.background }}",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_color": "",
-        "border_radius": 0,
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
-    },
     "product_list_zR9Cym": {
       "type": "product-list",
       "blocks": {
@@ -959,7 +898,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<p>Shop The Full Collection</p>",
+                "text": "<p>Scopri tutta la collezione</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1159,7 +1098,6 @@
   },
   "order": [
     "main",
-    "section_NaqU9X",
     "product_list_zR9Cym"
   ]
 }
