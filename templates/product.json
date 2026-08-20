@@ -1,12 +1,4 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */{
+{
   "sections": {
     "main": {
       "type": "product-information",
@@ -825,7 +817,7 @@
             "condition_badge": {
               "type": "custom-liquid",
               "settings": {
-                "custom_liquid": "{% if closest.product.tags contains 'usato' %}<p style='display:inline-block;background:#eef2f6;color:#1c3a56;padding:4px 12px;border-radius:2px;font-size:0.75rem;letter-spacing:0.05em;text-transform:uppercase;margin:0 0 4px;'>Usato</p>{% elsif closest.product.tags contains 'nuovo' %}<p style='display:inline-block;background:#1c3a56;color:#ffffff;padding:4px 12px;border-radius:2px;font-size:0.75rem;letter-spacing:0.05em;text-transform:uppercase;margin:0 0 4px;'>Nuovo</p>{% endif %}"
+                "custom_liquid": "{% if closest.product.tags contains 'usato' %}<p style='display:inline-block;background:#eef2f6;color:#1c3a56;padding:4px 12px;border-radius:2px;font-size:0.75rem;letter-spacing:0.05em;text-transform:uppercase;margin:0 0 4px;'>Vintage</p>{% elsif closest.product.tags contains 'nuovo' %}<p style='display:inline-block;background:#1c3a56;color:#ffffff;padding:4px 12px;border-radius:2px;font-size:0.75rem;letter-spacing:0.05em;text-transform:uppercase;margin:0 0 4px;'>Nuovo</p>{% endif %}"
               },
               "blocks": {}
             }
