@@ -123,6 +123,14 @@
     position: absolute;
     inset: 0;
   }
+
+  /* Keep the announcement bar stuck to the top together with the sticky header */
+  #header-group:has(#header-component[sticky]) {
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: var(--layer-menu-drawer);
+  }
 {% endstylesheet %}
 
 {% schema %}
