@@ -66,7 +66,8 @@
       "color3": "#e8c07d",
       "color4": "#eef2f6"
     },
-    "logo": "shopify://shop_images/resellerie-logo-r_aa8f8f88-8781-4668-bde7-465280799ffc.svg"
+    "logo": "shopify://shop_images/resellerie-logo-r_aa8f8f88-8781-4668-bde7-465280799ffc.svg",
+    "favicon": "shopify://shop_images/resellerie-favicon.png"
   },
   "presets": {
     "Tinker": {
